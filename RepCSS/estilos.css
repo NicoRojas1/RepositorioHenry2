@@ -1,0 +1,115 @@
+
+body{
+    background-color: rgb(8, 14, 15);
+    background-image: url("imagenes/Ice\ fond.jpeg");
+    background-size: contain;
+
+}
+header{
+    color: white;
+    font-family: fantasy ;
+    font-variant: small-caps ;
+    letter-spacing: 0.8em;  
+    text-align: center;
+    text-shadow: rgb(151, 137, 137) 6px 6px 6px;
+
+}
+#titulo{
+    font-size: 5em;
+
+}
+#eslogan{
+    color: goldenrod;
+    font-size: 2.5em;
+}
+h2{
+    font-size: 2em;
+}
+.imagen1{
+    width: 60em;
+    border:goldenrod 1em outset;
+    border-radius: 10%;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.presentacion{
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+    text-align: justify;
+
+}
+.enfoque{
+    color: rgb(255, 255, 255);
+    border-color: white;
+    border-width: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+  
+
+}
+#Servicios{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 4em;
+    border-image-source: url(imagenes/hielo.jpeg);
+    border-image-slice: 10%;
+    border-image-repeat: repeat;
+    padding: 1em;
+    cursor:pointer ;
+    transition: background-image 3s ;  
+}
+#Servicios:hover{
+    background-image: url(imagenes/hielo.jpeg);
+}
+#clientes{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 4em;
+    border-image-source: url(imagenes/hielo.jpeg);
+    border-image-slice: 5em;
+    border-image-repeat: repeat;
+    padding: 0.5em;
+    cursor:pointer ;
+    transition: background-image 3s ;  
+}
+#clientes:hover{
+    background-image: url(imagenes/hielo.jpeg);  
+}
+
+.fin{
+    background-color: black;
+    background-image: url(imagenes/rec.jpeg);
+}
+
+.formu{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+#casillas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width: 20em ;
+    height: 2em;
+    margin-bottom: 0px;
+}
+button{
+    width: 10em;
+    height:2em;
+}
+.Footer{
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+#Link{
+    color: white;
+}
